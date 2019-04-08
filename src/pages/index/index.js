@@ -1,11 +1,12 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View, Input, Button, Text } from '@tarojs/components'
+
 import './index.less'
 
 export default class Index extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '新药查询'
   }
 
   componentWillMount () { }
@@ -21,7 +22,11 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <View className='seacher'>
+          <View className='seacherBox'>
+            <Input type='text' placeholder='输入药物名称或疾病' focus />
+          </View>
+        </View>
       </View>
     )
   }
