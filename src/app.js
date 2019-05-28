@@ -13,12 +13,14 @@ class App extends Component {
 
   config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/datile/index',
+      'pages/article/index',
     ],
     window: {
       backgroundTextStyle: 'light',
-      navigationBarBackgroundColor: '#4F86C6',
-      navigationBarTitleText: 'asdf',
+      navigationBarBackgroundColor: '#333',
+      navigationBarTitleText: '新药查询',
       navigationBarTextStyle: 'white'
     }
   }

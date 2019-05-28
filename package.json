@@ -1,6 +1,7 @@
 {
   "name": "drug_app_cl",
   "version": "1.0.0",
+  "homepage":".",
   "private": true,
   "description": "新药查询系统移动版",
   "scripts": {
@@ -28,8 +29,9 @@
     "@tarojs/taro-swan": "1.2.23",
     "@tarojs/taro-tt": "1.2.23",
     "@tarojs/taro-weapp": "1.2.23",
-    "nervjs": "^1.3.9",
-    "nerv-devtools": "^1.3.9"
+    "moment": "^2.24.0",
+    "nerv-devtools": "^1.3.9",
+    "nervjs": "^1.3.9"
   },
   "devDependencies": {
     "@types/react": "^16.4.6",
